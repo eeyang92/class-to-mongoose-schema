@@ -12,7 +12,7 @@ yarn add class-to-mongoose-schema
 
 ## Purpose of this Package
 
-To enable inheritance of Mongoose Schema via Javascript Classes.
+To enable inheritance of Mongoose Schema via JavaScript Classes.
 
 Note: Only methods, variables and static methods are converted to the schema, static variables are ignored as there is no equivalent in Mongoose.
 
