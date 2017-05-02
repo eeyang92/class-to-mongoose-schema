@@ -21,7 +21,7 @@ Note: Only methods, variables and static methods are converted to the schema, st
 ```javascript
 // Person.js
 import mongoose, { Schema } from 'mongoose'
-import { classToSchema } from 'class-to-mongoose-schema'
+import classToSchema from 'class-to-mongoose-schema'
 
 export class Person {
 	constructor() {
@@ -44,7 +44,7 @@ export default mongoose.model(Person.name, personSchema) // Person.name === 'Per
 ```javascript
 // User.js
 import mongoose, { Schema } from 'mongoose'
-import { classToSchema } from 'class-to-mongoose-schema'
+import classToSchema from 'class-to-mongoose-schema'
 
 import { Person } from 'Person'
 
