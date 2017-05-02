@@ -1,13 +1,13 @@
 {
   "name": "class-to-mongoose-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "pre-pub:patch": "npm run _pre-pub -- patch",
     "pre-pub:minor": "npm run _pre-pub -- minor",
     "pre-pub:major": "npm run _pre-pub -- major",
-    "_pre-pub": "npm test && npm run build && npm version -f",
+    "_pre-pub": "npm version -f",
     "pub": "git push --tags origin master && npm publish"
   },
   "author": {
