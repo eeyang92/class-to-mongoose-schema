@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eeyang92/class-to-mongoose-schema.git"
+  },
   "scripts": {
     "pre-pub:patch": "npm run _pre-pub -- patch",
     "pre-pub:minor": "npm run _pre-pub -- minor",
