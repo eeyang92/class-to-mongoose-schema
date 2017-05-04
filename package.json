@@ -19,6 +19,12 @@
     "name": "Eric Yang",
     "email": "eeyang92@gmail.com"
   },
+  "keywords": [
+    "mongoose",
+    "class",
+    "schema",
+    "orm"
+  ],
   "license": "MIT",
   "dependencies": {
     "mongoose": "^4.9.7"
