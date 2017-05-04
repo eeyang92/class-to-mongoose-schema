@@ -57,7 +57,7 @@ export class User extends Person {
 	}
 
 	static getAll() { // Example static method
-		return mongoose.model('Users').find()
+		return mongoose.model('User').find()
 	}
 }
 
