@@ -1,7 +1,7 @@
 import { Schema } from 'mongoose'
 
 function isAttribute(obj) {
-	if (obj === String || obj === Number || obj === Boolean ||
+	if (obj === String || obj === Number || obj === Boolean || obj === Date ||
 		obj === Schema.Types.Mixed || obj === Schema.Types.ObjectId) {
 		return true
 	}
