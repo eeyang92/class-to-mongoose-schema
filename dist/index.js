@@ -8,7 +8,7 @@ exports.default = classToSchema;
 var _mongoose = require('mongoose');
 
 function isAttribute(obj) {
-	if (obj === String || obj === Number || obj === Boolean || obj === _mongoose.Schema.Types.Mixed || obj === _mongoose.Schema.Types.ObjectId) {
+	if (obj === String || obj === Number || obj === Boolean || obj === Date || obj === _mongoose.Schema.Types.Mixed || obj === _mongoose.Schema.Types.ObjectId) {
 		return true;
 	}
 
