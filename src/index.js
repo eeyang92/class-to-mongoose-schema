@@ -60,9 +60,9 @@ function getAllProps(obj) {
 	return props
 }
 
-export default function classToSchema(obj, options) {
+export default function classToSchema(obj, schemaOptions) {
 	const props = getAllProps(obj)
-	const schema = new Schema(props.attributes)
+	const schema = new Schema(props.attributes, schemaOptions)
 
 	schema.statics = props.staticMethods
 	schema.methods = props.methods
