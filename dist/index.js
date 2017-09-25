@@ -62,9 +62,9 @@ function getAllProps(obj) {
 	return props;
 }
 
-function classToSchema(obj, options) {
+function classToSchema(obj, schemaOptions) {
 	var props = getAllProps(obj);
-	var schema = new _mongoose.Schema(props.attributes);
+	var schema = new _mongoose.Schema(props.attributes, schemaOptions);
 
 	schema.statics = props.staticMethods;
 	schema.methods = props.methods;

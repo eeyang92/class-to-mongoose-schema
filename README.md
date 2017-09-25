@@ -16,6 +16,8 @@ To enable inheritance of Mongoose Schema via JavaScript Classes.
 
 Note: Only methods, variables and static methods are converted to the schema, static variables are ignored as there is no equivalent in Mongoose.
 
+As of 2.x, `mongoose` has become a peer dependency
+
 ## Example
 
 Via Properties:
