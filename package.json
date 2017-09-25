@@ -1,6 +1,6 @@
 {
   "name": "class-to-mongoose-schema",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Enables inheritance of Mongoose Schema via JavaScript Classes",
   "main": "dist/index.js",
   "repository": {
