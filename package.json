@@ -1,6 +1,6 @@
 {
   "name": "class-to-mongoose-schema",
-  "version": "1.2.5",
+  "version": "2.0.0",
   "description": "Enables inheritance of Mongoose Schema via JavaScript Classes",
   "main": "dist/index.js",
   "repository": {
@@ -26,7 +26,7 @@
     "orm"
   ],
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "mongoose": "^4.9.7"
   },
   "devDependencies": {
